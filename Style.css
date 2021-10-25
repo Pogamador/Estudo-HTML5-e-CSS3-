@@ -1,5 +1,4 @@
 body{
-    background: #CCCCCC 
 
   }
 #banner{
@@ -13,12 +12,10 @@ body{
   
   }
 
-
-h1{
-    text-align: center
+.titulo-principal{
+  padding-left: 20px;
 
 }
-
 
 p {
     text-align: center;   
@@ -42,7 +39,7 @@ em strong {
 
 }
 
-h2{
+.titulo-centralizado{
   text-align: center;
 }
 ul{
