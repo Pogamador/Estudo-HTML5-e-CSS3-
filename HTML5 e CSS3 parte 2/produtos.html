@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <html lang = "pt-br">
-    <!--Informaçõs do navegador-->
-
+    <!--Informações do navegador-->
     <head>
         <meta charset="UTF-8">
         <title>Produtos - Barbearia Alura</title>
@@ -11,28 +10,56 @@
     </head>
 
     <!--Informaçõs da página-->
-
     <body>  
-            <!--Cabeçalho-->
-
-            <header>
+        <!--Cabeçalho-->
+        <header>
              <!--Div para organizar os itens de navegação-->    
 
-            <div class="caixa">
-                <h1><img src="logo.png"></h1>
+                <div class="caixa">
+                    <h1><img src="logo.png"></h1>
 
-                 <!--Navegação-->
+                    <!--Navegação-->
 
-                <nav>
-                    <!--Lista com os itens-->
+                    <nav>
+                        <!--Lista com os itens-->
 
-                    <ul class="navegacao">
-                        <li><a href="C:\Users\tiago.alves\Estudo-HTML5-e-CSS3-\HTML5 e CSS3 parte 1\index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contatos.html">Contatos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            </header>
+                        <ul class="navegacao">
+                            <li><a href="C:\Users\tiago.alves\Estudo-HTML5-e-CSS3-\HTML5 e CSS3 parte 1\index.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="contatos.html">Contatos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+
+        <!--Página principal de produtos-->
+        <main>
+            <ul class="produtos">
+                <!--
+                    * Descrição
+                    * Imagem referente ao produto
+                    * Descrição
+                    * Valor
+                -->
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src="cabelo.jpg">
+                    <p class="produto-descricao">Na tesoura ou máquina como o cliente preferir</p>
+                    <p class="produto-preco">25,00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="barba.jpg">
+                    <p class="produto-descricao">Corte e desenho profissional de barba</p>
+                    <p class="produto-preco">18,00</p>
+                </li>
+                <li>
+                    <h2>Cabelo + Barba</h2>
+                    <img src="cabelo+barba.jpg">
+                    <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+                    <p class="produto-preco">35,00</p>
+                </li>
+            </ul>
+        </main>
     </body>
 </html>

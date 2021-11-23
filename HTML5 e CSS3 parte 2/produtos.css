@@ -29,3 +29,41 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+.produtos{
+    /*Definindo tamanho total da linha com os elementos*/
+    width: 940px;
+    margin: auto; /* A Margem será automática*/
+    padding: 50px 0; /*Espaço internod de 50px e 0 para os lados*/
+    
+}
+
+.produtos li{
+    /*Configuraçãoes que serão alocadas para cada elemento*/
+    display: inline-block;
+    text-align: center;
+    width: 30%; /*Vai diminuiro tamanho dos itens em 30%*/
+    vertical-align: top; /*Irá alinhar os itens pela liha de cima*/
+    margin: 0 1.5%;/*Margin Externa */
+    padding: 30px 20px;/*Margin interna*/
+    box-sizing: border-box;/*Agora iremos definir 
+    que os 30% serão o total e não sofrerão mais interferencia
+    das medidas que colocamos em pixels
+    */
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;/*Negrito*/
+
+}
+
+.produto-descricao{
+    font-size: 18px;    
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;/*Negrito*/
+    margin-top: 10px;
+}
+
