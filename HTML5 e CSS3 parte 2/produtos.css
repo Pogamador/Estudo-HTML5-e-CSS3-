@@ -49,6 +49,18 @@ nav a {
     que os 30% serão o total e não sofrerão mais interferencia
     das medidas que colocamos em pixels
     */
+    /*itens que montam uma borda*/
+    border-color: #000000;
+    /*Tamanho da borda*/
+    border-width: 2px;
+    /*Estilo da borda*/
+    border-style: solid;
+    /*Altera o tamanho da borda de cima*/
+    /*border-top-width: 10px;*/
+    /*deixa a borda no formato arrendondado*/
+    border-radius: 10px;
+    /*Entretanto podemos fazer tudo isso em uma unica declaração */
+    /*border: 2px solid #000000 */
 }
 
 .produtos h2{
