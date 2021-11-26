@@ -29,6 +29,14 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+/*Iremos utilizar o hover para mapear um comportamento em nosso site*/
+nav a:hover{
+
+    color: #C78c19;
+    text-decoration: underline;
+}
+
 .produtos{
     /*Definindo tamanho total da linha com os elementos*/
     width: 940px;
@@ -62,6 +70,23 @@ nav a {
     /*Entretanto podemos fazer tudo isso em uma unica declaração */
     /*border: 2px solid #000000 */
 }
+
+/*Alteração no item quando o mouse passar por cima*/
+.produtos li:hover {
+    border-color: #C78c19;
+
+}
+
+/*Alteração de comportamento para quando o item estiver pressionado pelo mouse*/
+.produtos li:active {
+    border-color: #088c19;
+    font-size: 40px;
+}
+.produtos h2:hover{
+    font-size: 34px;
+
+}
+
 
 .produtos h2{
     font-size: 30px;
