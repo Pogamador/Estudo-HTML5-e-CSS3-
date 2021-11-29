@@ -87,7 +87,6 @@ nav a:hover{
 
 }
 
-
 .produtos h2{
     font-size: 30px;
     font-weight: bold;/*Negrito*/
@@ -104,3 +103,15 @@ nav a:hover{
     margin-top: 10px;
 }
 
+footer{
+    text-align: center;
+    /*Usar uma img como background*/
+    background: url("bg.jpg");
+    padding: 40px;
+}
+
+.copyrigth{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+} 
