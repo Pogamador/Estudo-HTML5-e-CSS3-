@@ -16,7 +16,7 @@
              <!--Div para organizar os itens de navegação-->    
 
                 <div class="caixa">
-                    <h1><img src="logo.png"></h1>
+                    <h1><img src="logo.png" alt="logo da barbearia alura"></h1>
 
                     <!--Navegação-->
 
@@ -24,7 +24,7 @@
                         <!--Lista com os itens-->
 
                         <ul class="navegacao">
-                            <li><a href="C:\Users\tiago.alves\Estudo-HTML5-e-CSS3-\HTML5 e CSS3 parte 1\index.html">Home</a></li>
+                            <li><a href="C:\Users\tiago.alves\Desktop\Estudo-HTML5-e-CSS3-\HTML5 e CSS3 parte 1\index.html">Home</a></li>
                             <li><a href="C:\Users\tiago.alves\Desktop\Estudo-HTML5-e-CSS3-\HTML5 e CSS3 parte 2\produtos.html">Produtos</a></li>
                             <li><a href="C:\Users\tiago.alves\Desktop\Estudo-HTML5-e-CSS3-\HTML5 e CSS3 parte 3\contato.html">Contatos</a></li>
                         </ul>
@@ -39,20 +39,47 @@
 
                         <!--Campo para input-->
                         <!--Iremos utilizar id pois esse campo será unico-->
-                        <input type ='text' id ='nomesobrenome'></input>
+                        <input type ='text' id ='nomesobrenome' required class='input-padrao'></input>
 
                         <label for="email" >Email</label>    
-                        <input type="text" id='email'></input>
+                        <input type="email" id='email' required class='input-padrao' placeholder="seuemail@seudominio.com"></input>
 
                         <label for="telefone" >Telefone</label>    
-                        <input type="text" id='telefone'></input>
+                        <input type="tel" id='telefone' required class='input-padrao' placeholder="(XX) XXXXX-XXXX"></input>
+                        
+                        <!--Criando campo de texto-->
+                        <label for="menssagem">menssagem</label>
+                        <textarea cols="70" rows='10' id="menssagem" class='input-padrao'></textarea>
+
+                        <!--Campo com opções-->
+                        <fieldset>
+                            <legend>Como prefere o nosso contato</legend>
+                            <label for="radio-email"><input type="radio" name="contato" value="emai" id="radio-email">e-mail</label>
+                            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked></input>WhatsApp</label>
+                            
+                        </fieldset>
+                        
+                        <!--Campo de Seleção-->
+                        <fieldset>
+                            <legend>Qual o horário pretende ser atendido?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+
+
+                        <!--Check Button-->
+                        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
                         <!--Botão pra enviar os dados-->
                         <input type='Submit' value="Enviar Formulário">
                 </form>
             </main>
         <footer>
-            <img src="logo-branco.png">
+            <img src="logo-branco.png" alt="logo da barbearia alura">
             <!--&copy unicode para o copyrigth-->
             <p class= "copyrigth">&copy; Copyrigth Barbearia Alura - 2021
         </footer>
