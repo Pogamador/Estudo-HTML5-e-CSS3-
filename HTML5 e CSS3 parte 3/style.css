@@ -142,3 +142,25 @@ form label, form legend{
 .checkbox{
     margin: 20px 0;
 }
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    /*Tempo de transição de cor */
+    transition: 1s all;
+    cursor: pointer;
+}
+
+/*Quando o mouse ficar em cima do elemento*/
+
+.enviar:hover{
+    background-color: darkorange;
+    /*Rotacionar o elemento em 70 graus*/
+    transform: rotate(360deg)/*Aumentando o tamanho do elemento*/ scale(1.2);
+}
